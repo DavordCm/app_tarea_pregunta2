@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'; // Importa FormsModule
-import { CommonModule } from '@angular/common'; // Importa CommonModule
+import { FormsModule } from '@angular/forms'; 
+import { CommonModule } from '@angular/common'; 
 
 @Component({
   selector: 'app-pregunta2',
   standalone: true,
-  imports: [FormsModule, CommonModule], // Incluye FormsModule y CommonModule aquí
+  imports: [FormsModule, CommonModule], 
   templateUrl: './pregunta2.component.html',
   styleUrls: ['./pregunta2.component.css'],
 })
